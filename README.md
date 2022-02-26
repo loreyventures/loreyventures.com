@@ -7,3 +7,4 @@ Plugins:
 
 ## Sources
 - https://blog.konnor.site/javascript/setting-up-gatsby-with-docker/
+- https://dabarov.github.io/blog/gatsby-blog-github-pages/

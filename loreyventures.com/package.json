@@ -28,5 +28,8 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "tailwindcss": "^3.0.23"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
