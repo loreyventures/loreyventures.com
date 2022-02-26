@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+    body {
+        @apply bg-gray-200
+    }
+
     a {
-        @apply font-bold hover:underline
+        @apply font-bold text-gray-500 hover:underline hover:text-blue-500
     }
 }

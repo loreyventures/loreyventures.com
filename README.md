@@ -1,5 +1,5 @@
 # Code for [loreyventures.com](https://loreyventures.com)
-[loreyventures.com](https://loreyventures.com), a page for Lorey Ventures, created with Gatsby and Airtable.
+[loreyventures.com](https://loreyventures.com), the website of Lorey Ventures, created with Gatsby and Airtable.
 
 Plugins:
 - https://www.gatsbyjs.com/plugins/gatsby-source-airtable
