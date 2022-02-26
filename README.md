@@ -1,10 +1,15 @@
-# loreyventures.com
-Page created with Gatsby and Airtable.
+# Code for [loreyventures.com](https://loreyventures.com)
+[loreyventures.com](https://loreyventures.com), a page for Lorey Ventures, created with Gatsby and Airtable.
 
 Plugins:
 - https://www.gatsbyjs.com/plugins/gatsby-source-airtable
+
 ## Run
+```
+docker-compose build
+docker-compose up
+```
 
 ## Sources
-- https://blog.konnor.site/javascript/setting-up-gatsby-with-docker/
-- https://dabarov.github.io/blog/gatsby-blog-github-pages/
+- [Gatsby in Docker](https://blog.konnor.site/javascript/setting-up-gatsby-with-docker/)
+- [Deploy with Github pages](https://dabarov.github.io/blog/gatsby-blog-github-pages/)
