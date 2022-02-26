@@ -10,7 +10,7 @@ const IndexPage = () => {
           <p className="text-gray-400 mt-5">
               Lorey Ventures is the holding company of <a href="https://karllorey.com">Karl Lorey</a>.
           </p>
-          <footer className="text-gray-400 mt-10">Built in Berlin with ❤</footer>
+          <footer className="text-gray-400 mt-10">Built with ❤ in Berlin</footer>
       </main>
   )
 }
