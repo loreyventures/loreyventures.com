@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: loreyventures.com
+    tty: True
+    ports:
+      - '8000:8000'
+    volumes:
+      - /code/.cache
+      - /code/node_modules
+      - ./loreyventures.com:/code
+    environment:
+      NODE_ENV: development
+      GATSBY_WEBPACK_PUBLICPATH: /
