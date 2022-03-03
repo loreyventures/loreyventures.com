@@ -5,7 +5,7 @@ import * as React from "react"
 // markup
 const IndexPage = () => {
   return (
-      <main className="container mx-auto max-w-4xl p-10">
+      <main className="container mx-auto max-w-5xl p-10">
           <title>Lorey Ventures</title>
           <div className="text-center">
               <div className="text-gray-700" style={{'font-size': '1000%', 'line-height': '100%'}}>LV</div>
@@ -14,7 +14,7 @@ const IndexPage = () => {
                   Lorey Ventures is the holding company of <a href="https://karllorey.com">Karl Lorey</a>.
               </p>
           </div>
-          <div className="md:grid md:grid-cols-3 md:gap-5 text-gray-400">
+          <div className="md:grid md:grid-cols-4 md:gap-10 text-gray-400">
               <div className="mt-5">
                   <h3 className="my-2">About</h3>
                   <p className="mb-3">
@@ -29,20 +29,33 @@ const IndexPage = () => {
               </div>
               <div className="mt-5">
                   <h3 className="my-2">Portfolio</h3>
-                  <p className="mb-5">Ventures we've backed or have been actively involved in.</p>
+                  <p className="mb-5">Ventures started or backed.</p>
                   <ul className="space-y-3">
                       <li><a href="https://firstmomentum.vc" rel="nofollow">First Momentum</a>: Pre-Seed Venture Capital Fund</li>
-                      <li><a href="https://programmermap.com">Programmer Map</a>: Global programmer, technology, and project rankings</li>
+                      <li><a href="http://programmermap.com">Programmer Map</a>: Global programmer, technology, and project rankings</li>
                       <li><a href="https://germanitjobs.com">German IT Jobs</a>: International Recruiting Platform</li>
+                      <li><a href="http://kursverwaltungonline.de/">KursverwaltungOnline</a>: German course enrollment platform for students</li>
                   </ul>
               </div>
               <div className="mt-5">
                   <h3 className="my-2">Clients</h3>
-                  <p className="mb-5">A selection of clients we've done project-based work for.</p>
+                  <p className="mb-5">Selection of clients we've done project-based work for.</p>
                   <ul className="list-disc list-outside ml-4">
                       <li><a href="https://partscloud.com">PartsCloud</a>: leading product and tech for a venture-backed, pre-seed logistics startup.</li>
-                      <li><a href="https://uni-stuttgart.de">University of Stuttgart</a>: building a data-driven process for startup scouting.</li>
                       <li><a href="https://smart.com">Smart Europe</a>: leading requirements engineering for CRM, CDM, and GDPR.</li>
+                  </ul>
+              </div>
+              <div className="mt-5">
+                  <h3 className="my-2">Support</h3>
+                  <p className="mb-5">Companies supported with mentoring or technology.</p>
+                  <ul className="list-disc list-outside ml-4">
+                      <li><a href="https://allaboutfungi.net">All about funghi</a></li>
+                      <li><a href="https://conversion-kitchen.com">Conversion Kitchen</a></li>
+                      <li><a href="https://peekup.de">PeekUp</a></li>
+                      <li><a href="https://ventecon.com">Ventecon</a></li>
+                      <li><a href="https://quantumsimulations.de">HQS Quantum Simulations</a></li>
+                      <li><a href="https://www.peers-solutions.com">Peers</a></li>
+                      <li><a href="https://verlingo.de">Verlingo</a></li>
                   </ul>
               </div>
           </div>
