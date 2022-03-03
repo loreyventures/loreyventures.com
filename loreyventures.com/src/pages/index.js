@@ -49,7 +49,7 @@ const IndexPage = () => {
                   <h3 className="my-2">Support</h3>
                   <p className="mb-5">Companies supported with mentoring or technology.</p>
                   <ul className="list-disc list-outside ml-4">
-                      <li><a href="https://allaboutfungi.net">All about funghi</a></li>
+                      <li><a href="https://allaboutfungi.net">All about fungi</a></li>
                       <li><a href="https://conversion-kitchen.com">Conversion Kitchen</a></li>
                       <li><a href="https://peekup.de">PeekUp</a></li>
                       <li><a href="https://ventecon.com">Ventecon</a></li>
