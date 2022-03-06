@@ -18,7 +18,7 @@ export default function Page({children}) {
             <footer className="text-gray-400 mt-10">
                 <p className="text-xs mt-4">
                     © 2022 Lorey Ventures UG (haftungsbeschränkt).<br/>
-                    <a href="https://github.com/loreyventures/loreyventures.com">Source Code</a> is available on GitHub.
+                    <a href="https://github.com/loreyventures/loreyventures.com">Source Code</a> is available on GitHub. <Link to="/legal">Legal</Link> and <Link to="/privacy">Privacy</Link>.
                 </p>
             </footer>
         </div>
