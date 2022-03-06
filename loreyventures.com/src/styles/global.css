@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply bg-gray-200
+        @apply bg-gray-200 text-gray-400
     }
 
     a {
@@ -12,7 +12,7 @@
     }
 
     h1, h2, h3 {
-        @apply text-gray-700 font-bold
+        @apply text-gray-700 font-bold mt-3
     }
 
     h1 {
@@ -25,5 +25,13 @@
 
     h3 {
         @apply text-xl
+    }
+
+    h4 {
+        @apply text-lg
+    }
+
+    ul {
+        @apply list-disc list-outside ml-4
     }
 }

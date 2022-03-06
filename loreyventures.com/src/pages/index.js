@@ -1,20 +1,13 @@
 import * as React from "react"
+import Page from "../components/page";
 
 // data
 
 // markup
 const IndexPage = () => {
   return (
-      <main className="container mx-auto max-w-5xl p-10">
-          <title>Lorey Ventures</title>
-          <div className="text-center">
-              <div className="text-gray-700" style={{'font-size': '1000%', 'line-height': '100%'}}>LV</div>
-              <h1 className="text-5xl text-gray-900 font-normal">Lorey Ventures</h1>
-              <p className="text-gray-400 my-10">
-                  Lorey Ventures is the holding company of <a href="https://karllorey.com">Karl Lorey</a>.
-              </p>
-          </div>
-          <div className="md:grid md:grid-cols-4 md:gap-10 text-gray-400">
+      <Page>
+          <main className="md:grid md:grid-cols-4 md:gap-10 text-gray-400">
               <div className="mt-5">
                   <h3 className="my-2">About</h3>
                   <p className="mb-3">
@@ -58,14 +51,8 @@ const IndexPage = () => {
                       <li><a href="https://verlingo.de">Verlingo</a></li>
                   </ul>
               </div>
-          </div>
-          <footer className="text-gray-400 mt-10">
-              <p className="text-xs mt-4">
-                  © 2022 Lorey Ventures UG (haftungsbeschränkt). <a href="https://karllorey.de/impressum" className="text-gray-400">Imprint</a>.<br/>
-                  Source Code is available on GitHub.
-              </p>
-          </footer>
-      </main>
+          </main>
+      </Page>
   )
 }
 
