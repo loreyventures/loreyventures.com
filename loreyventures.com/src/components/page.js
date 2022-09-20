@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default function Page({children}) {
     return (
-        <div className="container mx-auto max-w-5xl p-10">
+        <div className="container mx-auto max-w-7xl p-10">
             <title>Lorey Ventures</title>
             <div className="text-center">
                 <div className="text-gray-700" style={{'font-size': '1000%', 'line-height': '100%'}}>
