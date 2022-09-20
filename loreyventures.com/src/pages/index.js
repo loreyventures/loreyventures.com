@@ -7,7 +7,7 @@ import Page from "../components/page";
 const IndexPage = () => {
   return (
       <Page>
-          <main className="grid gap-10 md:grid-cols-4 sm:grid-cols-2 text-gray-400 py-10">
+          <main className="grid gap-10 md:grid-cols-4 sm:grid-cols-2 text-gray-400 py-24">
               <div className="">
                   <h3 className="my-2">About</h3>
                   <p className="mb-3">
@@ -23,7 +23,7 @@ const IndexPage = () => {
               <div className="">
                   <h3 className="my-2">Portfolio</h3>
                   <p className="mb-5">Ventures started or backed.</p>
-                  <ul className="space-y-3">
+                  <ul className="list-disc list-outside ml-4 space-y-3">
                       <li><a href="https://startupradar.co">Startup Radar</a>: Startup Discovery API</li>
                       <li><a href="https://firstmomentum.vc" rel="nofollow">First Momentum</a>: Pre-Seed Venture Capital Fund</li>
                       <li><a href="http://programmermap.com">Programmer Map</a>: Global programmer, technology, and project rankings</li>
@@ -34,7 +34,7 @@ const IndexPage = () => {
               <div className="">
                   <h3 className="my-2">Clients</h3>
                   <p className="mb-5">Selection of clients we've done project-based work for.</p>
-                  <ul className="list-disc list-outside ml-4">
+                  <ul className="list-disc list-outside ml-4 space-y-3">
                       <li><a href="https://quantco.com">QuantCo</a>: building an automated price monitoring system.</li>
                       <li><a href="https://partscloud.com">PartsCloud</a>: leading product and tech for a venture-backed, pre-seed logistics startup.</li>
                       <li><a href="https://smart.com">Smart Europe</a>: leading requirements engineering for CRM, CDM, and GDPR.</li>

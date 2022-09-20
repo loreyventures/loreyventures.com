@@ -4,7 +4,7 @@ import Page from "../components/page";
 const LegalPage = () => {
     return (
         <Page>
-            <main className="p-10">
+            <main className='py-24'>
                 <title>Legal Notice</title>
 
                 <h1>Legal Notice</h1>
