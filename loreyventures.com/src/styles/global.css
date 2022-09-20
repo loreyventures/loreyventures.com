@@ -8,7 +8,7 @@
     }
 
     a {
-        @apply font-bold text-gray-500 hover:underline hover:text-blue-500
+        @apply font-bold text-gray-500 hover:underline hover:text-blue-500 duration-500
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -29,13 +29,5 @@
 
     h4 {
         @apply text-lg
-    }
-
-    ul {
-        @apply list-disc list-outside ml-4
-    }
-
-    p {
-        @apply mb-3
     }
 }
