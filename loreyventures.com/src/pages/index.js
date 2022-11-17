@@ -35,7 +35,6 @@ const IndexPage = () => {
                   <h3 className="my-2">Clients</h3>
                   <p className="mb-5">Selection of clients we've done project-based work for.</p>
                   <ul className="list-disc list-outside ml-4 space-y-3">
-                      <li><a href="https://quantco.com">QuantCo</a>: building an automated price monitoring system.</li>
                       <li><a href="https://partscloud.com">PartsCloud</a>: leading product and tech for a venture-backed, pre-seed logistics startup.</li>
                       <li><a href="https://smart.com">Smart Europe</a>: leading requirements engineering for CRM, CDM, and GDPR.</li>
                   </ul>
