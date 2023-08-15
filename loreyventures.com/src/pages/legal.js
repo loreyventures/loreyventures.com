@@ -8,6 +8,11 @@ const LegalPage = () => {
                 <title>Legal Notice</title>
 
                 <h1>Legal Notice</h1>
+                <p>
+                    This is legally required information and contains private data. 
+                    You have neither permission nor consent to process, store, index, or use this data in any form
+                </p>
+        
                 <h3>Information according to § 5 TMG</h3>
                 <p>
                     Lorey Ventures UG (haftungsbeschränkt)<br/>
